@@ -28,8 +28,11 @@ public class Day1 {
         }
 
         finally {
+            System.out.println("Starting sum calculator");
             Integer sum = sumFrequency;
             boolean isFound = false;
+
+            System.out.println("Starting process to find duplicate freq");
             while (!isFound){
                 for(String s : patern) {
 
