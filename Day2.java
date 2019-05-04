@@ -24,7 +24,7 @@ public class Day2 {
         }
         catch (IOException e){
 
-            System.out.println("Sranje");
+            System.out.println("Error");
         }
         finally {
 
